@@ -1,0 +1,10 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# visual studio
+.vs
+Debug
+x64
+
+# project
+sc-console-test/Debug
+sc-console-test/x64

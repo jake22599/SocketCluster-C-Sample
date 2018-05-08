@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{990eebad-43b3-42ac-95b3-4b83d83a5bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\json">
+      <UniqueIdentifier>{ac83e430-6e56-43f7-82fb-e94b614e97cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\hashmap_string.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\scclient.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\synch.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\hashmap.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\unistd.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\getopt.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_c_version.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_config.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_inttypes.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_object.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_object_iterator.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_pointer.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_tokener.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json_util.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\linkhash.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\printbuf.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\arraylist.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\debug.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libwebsockets.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lws_config.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\pthread.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\semaphore.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\hashmap_test.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\json_parser.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\json_test.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\map.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\parser.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\scclient.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\callback_fun.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\hashmap.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\hashmap_string.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\getopt.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\synch.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sleep.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
